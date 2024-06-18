@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Función para generar la pirámide de números
+ * Función para generar la pirámide de números.
  *
- * @param int $startValue La altura de la pirámide.
+ * @param int $startValue el valor de entrada de la pirámide.
  * @return void
  */
 function generatePyramid(int $startValue)
@@ -38,10 +38,10 @@ function generatePyramid(int $startValue)
 }
 
 /**
- * Función para validar la valor ingresado por el usuario.
+ * Función para validar el valor de entrada del usuario.
  *
- * @param array $argv array de parametros
- * @return int valor inicial ingresado por el usuario.
+ * @param array $argv array de parametros.
+ * @return int valor de entrada validado.
  * @throws Exception si la entrada no es válida.
  */
 function getInput(array $argv): int
