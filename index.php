@@ -1,5 +1,6 @@
 <?php
 
+// Se incluye la clase que genera la piramide de numeros
 require('PyramidNumber.php');
 
 try {
