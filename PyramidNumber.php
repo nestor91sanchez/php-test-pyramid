@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class para generar piramide de numeros
+ */
 class PyramidNumber
 {
     const PYRAMID_LEVELS = 10;
